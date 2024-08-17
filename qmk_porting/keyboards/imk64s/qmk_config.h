@@ -21,7 +21,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define PRODUCT_ID   0x6401
 #define DEVICE_VER   0x0001
 #define MANUFACTURER IMK
-#define PRODUCT      imk64
+#define PRODUCT      imk64s
 
 #define MATRIX_ROWS 5
 #define MATRIX_COLS 14
