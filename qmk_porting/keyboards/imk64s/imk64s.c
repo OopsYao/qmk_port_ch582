@@ -67,7 +67,9 @@ led_config_t g_led_config = {
 };
 /* clang-format on */
 
-bool rgb_matrix_indicators_advanced_kb(uint8_t led_min, uint8_t led_max)
+// This definition conflicts with that in protocol/extra_indicator.c
+// just change its name (imk64s does not have RGB at all!)
+bool rgb_matrix_indicators_advanced_kb_backup(uint8_t led_min, uint8_t led_max)
 {
     if (!rgb_matrix_indicators_advanced_user(led_min, led_max)) {
         return false;
