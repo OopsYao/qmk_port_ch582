@@ -133,4 +133,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // Avoid missing keycodes when using RDP on Windows
 // https://docs.qmk.fm/mod_tap#caveats
-#define TAP_CODE_DELAY 100
+//#define TAP_CODE_DELAY 100
