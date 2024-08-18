@@ -130,3 +130,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define NO_ACTION_LAYER
 // #define NO_ACTION_TAPPING
 // #define NO_ACTION_ONESHOT
+
+// Avoid missing keycodes when using RDP on Windows
+// https://docs.qmk.fm/mod_tap#caveats
+#define TAP_CODE_DELAY 100
